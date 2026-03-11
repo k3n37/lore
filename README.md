@@ -1,4 +1,4 @@
-# ai-knowledge-system
+# lore
 
 Knowledge retrieval and grounding layer built on top of the broader AI platform.
 
@@ -24,7 +24,7 @@ Starter repository with retrieval contract and indexing notes.
 ## Structure
 
 ```text
-ai-knowledge-system/
+lore/
 ├── docs/
 │   └── retrieval.md
 ├── src/
