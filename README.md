@@ -8,9 +8,9 @@ Turn raw AI capability into a focused knowledge system for document-grounded sea
 
 ## Role in the ecosystem
 
-- Specialization layer on top of `ai-platform`
-- Consumes data and indexing ideas from `data-platform`
-- Feeds grounded experiences into `master-platform`
+- Specialization layer on top of `synapse`
+- Consumes data and indexing ideas from `flux`
+- Feeds grounded experiences into `orbit`
 
 ## Status
 
@@ -45,9 +45,9 @@ python3 -m src.knowledge_system.retrieval
 
 ## Related repositories
 
-- `ai-platform`
-- `data-platform`
-- `master-platform`
+- `synapse`
+- `flux`
+- `orbit`
 
 ## Future direction
 
