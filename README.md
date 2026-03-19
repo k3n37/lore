@@ -1,54 +1,34 @@
 # lore
 
-Knowledge retrieval and grounding layer built on top of the broader AI platform.
-
 ## Purpose
+Organize technical knowledge so it can be retrieved, grounded, and reused across documentation and AI workflows.
 
-Turn raw AI capability into a focused knowledge system for document-grounded search and internal assistant experiences.
+## Why it matters
+When knowledge systems are weak, useful engineering context stays fragmented and intelligent features lose grounding.
 
-## Role in the ecosystem
+## Scope
+This repo focuses on documentation structure, retrieval-oriented organization, and grounded knowledge access. It does not try to be a general wiki replacement.
 
-- Specialization layer on top of `synapse`
-- Consumes data and indexing ideas from `flux`
-- Feeds grounded experiences into `orbit`
+## System Role
+`lore` is the documentation and knowledge-systems layer for the ecosystem. It gives AI and portfolio surfaces a structured body of reusable context.
 
-## Status
+## System Connections
+- Depends on: retrieval capabilities from `synapse` and source material from docs-heavy repos.
+- Feeds into: grounded AI workflows and portfolio curation.
+- Interacts with: `synapse`, `cosmos`, `k3n37`.
 
-Starter repository with retrieval contract and indexing notes.
+## Core Concepts
+- knowledge organization
+- document grounding
+- retrieval structure
+- reusable context
+- technical documentation
 
-## Tech stack
+## Minimal Artifact
+`docs/retrieval.md` and `src/knowledge_system/retrieval.py` provide the starter knowledge-system baseline.
 
-- Python
-- Pydantic
+## Notes
+The goal is structured, retrievable engineering knowledge that can support both humans and AI systems.
 
-## Structure
-
-```text
-lore/
-├── docs/
-│   └── retrieval.md
-├── src/
-│   └── knowledge_system/
-│       ├── __init__.py
-│       └── retrieval.py
-├── .editorconfig
-├── .gitignore
-├── README.md
-└── ROADMAP.md
-```
-
-## Getting started
-
-```bash
-python3 -m src.knowledge_system.retrieval
-```
-
-## Related repositories
-
-- `synapse`
-- `flux`
-- `orbit`
-
-## Future direction
-
-Grow into a narrow, grounded knowledge repo instead of another generic “AI tools” project.
+## Next Steps
+Add source indexing patterns, document taxonomies, and clearer grounding contracts.
